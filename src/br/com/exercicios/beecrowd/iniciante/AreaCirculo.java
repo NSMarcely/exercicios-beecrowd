@@ -14,6 +14,7 @@ public class AreaCirculo {
 	public static void main(String[] args) {
 		AreaCirculo areaCirculo = new AreaCirculo();
 		Scanner entrada = new Scanner(System.in);
+		//Não colocar no Beecrowd
 		System.out.println("raio:");
 		double raio = entrada.nextDouble();
 		System.out.printf("A=%.4f%n"+ areaCirculo.calcular(raio));

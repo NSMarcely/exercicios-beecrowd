@@ -10,9 +10,11 @@ public class ExtremamenteBasico {
 	public static void main(String[] args) {
 		ExtremamenteBasico extremamenteBasico = new ExtremamenteBasico();
 		Scanner entrada = new Scanner(System.in);
+		//Não colocar no beecrowd
 		System.out.println("Número a:");
 		int a = entrada.nextInt();
 		entrada.nextLine();
+		//Não colocar no beecrowd
 		System.out.println("Número b:");
 		int b = entrada.nextInt();
 		entrada.nextLine();
