@@ -1,18 +1,20 @@
 package br.com.exercicios.beecrowd.iniciante;
+
 import java.util.Scanner;
 
-public class SomaSimples {
+public class Media1 {
 	public static void main(String[] args) {
-		
 		//Não colocar no Beecrowd
 		System.out.println("Iniciou!");
 		Scanner entrada = new Scanner(System.in);
-		int a = entrada.nextInt();
+		float a = entrada.nextFloat();
 		entrada.nextLine();
-		int b = entrada.nextInt();
+		float b = entrada.nextFloat();
 		entrada.nextLine();
-		int soma = a + b;
-		System.out.println("SOMA = " + soma);
+		double notaA = a*3.5;
+		double notaB = b*7.5;
+		double resultado = (notaA + notaB)/(3.5+7.5);
+		System.out.printf("MEDIA = %.5f%n", resultado);
 		entrada.close();
 	}
 }
